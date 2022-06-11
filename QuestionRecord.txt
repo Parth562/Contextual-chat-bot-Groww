@@ -1,0 +1,259 @@
+*****This is just for record of the questions*****
+{
+        {
+            "_id": "628c7ccb550334965ed5bfb1",
+            "routeName": "login-none",  
+            "qlist": [
+                "627ff737031e0bd34a9851c6",
+                "627ffb46da253de68c6e7535",
+                "6284ff174e4b4d7d8360d715"
+            ]
+        }
+        {
+            "routeName": "kyc-invest", 
+            "_id": "628c81c1b2f5a8655b18e167",
+            "qlist": [
+                "6287736cbea1fe4ea1156c12",
+                "628c7f2301c8e0c01495c1e8"
+            ],
+            "__v": 0
+        }
+        {
+            "routeName": "kyc-explore", **kyc/explore, invest, none store route in localstorage
+            "_id": "629711cd4975f0783e0e9c74",
+            "qlist": [
+                "629984cf6a3a6c5dc64fe8b0",
+                "628767e29c5d7802a811cfa1"
+            ],
+            "__v": 0
+        }
+        {
+            "routeName": "stocks-user-explore",
+            "_id": "628c7d06550334965ed5bfb3",
+            "qlist": [
+                "629ded73559c11ee4931b925",
+                "62876ea1bea1fe4ea1156c0b",
+                "62877158bea1fe4ea1156c0d",
+                "6287a2a7bca045cc8d7ffd0a"
+            ],
+        }
+        {
+            "routeName": "stocks-user-invest",
+            "qlist": [
+                "629b2d1c793de3751df9cb95",
+                "629b39e0793de3751df9cc23",
+                "62876c61bea1fe4ea1156c09",
+                "629dda4248455ed9cbcac2ef"
+            ],
+            "_id": "629986616a3a6c5dc64fe8d1",
+            "__v": 0
+        }
+        {
+            "routeName": "mutual-funds-user-explore",
+            "qlist": [],
+            "_id": "62997c4592bc558cc49dd909",
+            "__v": 0
+        }
+        {
+            "routeName": "mutual-funds-user-invest",
+            "qlist": [
+                "629e1b258777fa8ba56ef5fb",
+                "629e1be88777fa8ba56ef60a",
+                "629e1d4a8777fa8ba56ef60e",
+                "629e20ca8777fa8ba56ef628"
+            ],
+            "_id": "629e213a8777fa8ba56ef62b",
+            "__v": 0
+        }
+        {
+            "routeName": "deposits-user-explore",
+            "qlist": [],
+            "_id": "6299b73ce0590ac5e94a8d79",
+            "__v": 0
+        }
+        {
+            "routeName": "deposits-user-invest",
+            "qlist": [
+                "629e1ed68777fa8ba56ef614",
+                "629e1f3e8777fa8ba56ef618",
+                "629e1e2a8777fa8ba56ef611",
+                "629e203b8777fa8ba56ef626"
+            ],
+            "_id": "629e217f8777fa8ba56ef62d",
+            "__v": 0
+        }
+        {
+            "routeName": "investments-user-invest",
+            "qlist": [
+                "629f28929cb4c54dc2882252",
+                "629f28bd9cb4c54dc2882255",
+                "629f28e29cb4c54dc2882258"
+            ],
+            "_id": "629f28f19cb4c54dc288225a",
+            "__v": 0
+        }
+        
+}
+{
+    627ff737031e0bd34a9851c6 - Can I invest using a credit/debit card?{
+        627ff92cda253de68c6e752f - Why do I need to add a bank account?
+        627ffadbda253de68c6e7533 - How can I delete my bank account?
+        627ff995da253de68c6e7531 - What payment methods are supported on Groww?
+    }
+    627ffb46da253de68c6e7535 - Are there any charges for Mandates?{
+        6284c880815b8f1411229232 - What does AutoPay/Mandate limit mean?
+    }
+    6284ff174e4b4d7d8360d715 - How do referrals work?{
+        628501c1822941b8d7ecce83 - Does Groww referral work on the app only?
+        62850300822941b8d7ecce85 - Am I eligible for Groww referral rewards?
+    }
+
+    6287736cbea1fe4ea1156c12, 629984cf6a3a6c5dc64fe8b0 (explore) - My KYC is showing pending.Is KYC necressary?{
+        628767e29c5d7802a811cfa1 - How can I get my full KYC done?              *******action kyc(must be leaf)
+        (to change it change in kyc.js after from submission, check if any children is then and then handle it in actionprovider)
+        62876a0c71dc460063f651da - Do you charge for processing KYC?{
+            628767e29c5d7802a811cfa1
+            }
+    }
+    628c7f2301c8e0c01495c1e8 - Why can't I invest?{
+        628767e29c5d7802a811cfa1 - How can I get my full KYC done?              *******action kyc(must be leaf)
+        62876a0c71dc460063f651da - Do you charge for processing KYC?{
+            628767e29c5d7802a811cfa1
+            }
+    }
+   
+    
+    629ded73559c11ee4931b925 - Show my investments in stocks.                    *******action investments Stock(must be leaf)
+    62876ea1bea1fe4ea1156c0b - How much does Groww charge for stocks?{
+
+        6287805cbea1fe4ea1156c16 - Why is my buy/sell disabled for certain stocks?
+    }
+    62877158bea1fe4ea1156c0d - How will off market transactions show up in my holding?{
+        628780e7bea1fe4ea1156c18 - How much does Groww charge for stocks?
+        62878171bea1fe4ea1156c1a - When will corporate action reflect in my holdings?
+        628781dabea1fe4ea1156c1c - Why do I see NULL Holdings while selling?
+        6287823dbea1fe4ea1156c1e - What is the difference between realised and unrealised returns?
+    }
+
+    6287a2a7bca045cc8d7ffd0a - Questions regarding IPO and UPI mandate.{
+        62879b5dbca045cc8d7ffcf4 - I have cancelled my IPO order. When will my amount get unblocked?
+
+        62879d6fbca045cc8d7ffcfa - Questions regarding UPI mandate.{
+            62879ae1bca045cc8d7ffcf2 - How can I find the IPO mandate on my UPI app?
+            62879ce9bca045cc8d7ffcf6 - I have not received a UPI mandate request till now. What should I do?
+            62879d3abca045cc8d7ffcf8 - The UPI mandate request failed on my UPI app. What should I do?
+        }
+        62879dd7bca045cc8d7ffcfc - I did not get IPO allotment and my money is still blocked.
+
+        62877259bea1fe4ea1156c0f - What is IPO?{
+            62879f49bca045cc8d7ffcfe - How to invest in IPO?{
+                6287a0c6bca045cc8d7ffd04 - What is price range, lot size and cutoff price in an IPO?{
+                    6287a075bca045cc8d7ffd02 - What is the maximum amount which I can invest in an IPO? 
+                }
+                6287a1e8bca045cc8d7ffd08 - How many bids can I place?{
+                    62879ff2bca045cc8d7ffd00 - Can I apply for same IPO on multiple platforms?
+                }
+            }
+            
+            6287a17fbca045cc8d7ffd06 - Can I use my Groww Balance or Net Banking for IPO application?
+        }
+
+    }
+     629b2d1c793de3751df9cb95 - What is the market price of the stock?        *****action get price
+     629b39e0793de3751df9cc23 - What is the market capital of the stock?      **** action get market capital
+     62876c61bea1fe4ea1156c09 - Show my investments in stocks.                *******action investments Stock(must be leaf)   
+     629dda4248455ed9cbcac2ef - Show my previous investments in this stock .   ******action insvestments Id(space after each word imp.)
+
+
+    62998f4b6a3a6c5dc64fe8ed - How to start a SIP on Groww?{
+        629990ca6a3a6c5dc64fe8f2 - How to change SIP date or amount?
+        629991676a3a6c5dc64fe8f4 - How to cancel an ongoing SIP?
+        629991fb6a3a6c5dc64fe8f6 - How do monthly installments get paid automatically?
+        629998876a3a6c5dc64fe908 - How to select a time period for SIP?{
+            629998f56a3a6c5dc64fe90a - Why am I not able to edit my SIP?
+        }
+    }
+    629993226a3a6c5dc64fe8f8 - SIP installment was deducted but the order is not reflected on the dashboard.{
+       6299938a6a3a6c5dc64fe8fa - My amount got debited but the transaction shows as failed. When will I get the refund?{
+           629995286a3a6c5dc64fe8fe - How do I pay for my SIP installment if the autopay debit has failed?{
+               629997636a3a6c5dc64fe906 - How do I pay a missed SIP installment?
+           }
+       }
+       629994286a3a6c5dc64fe8fc - How do I continue investing in my SIP from Groww Balance?
+    }
+    629995ef6a3a6c5dc64fe900 - How to skip an SIP installment?{
+        629996b46a3a6c5dc64fe904 - Why is my SIP installment skipping the 1st month?
+        629997636a3a6c5dc64fe906 - How do I pay a missed SIP installment?
+        629994286a3a6c5dc64fe8fc - How do I continue investing in my SIP from Groww Balance?
+        629998876a3a6c5dc64fe908 - How to select a time period for SIP?{
+            629998f56a3a6c5dc64fe90a - Why am I not able to edit my SIP?
+        }
+    }
+    629999c36a3a6c5dc64fe90c - Why are my external funds missing from my dashboard?{
+       62999a146a3a6c5dc64fe90e - Why was my external SIP not imported automatically?
+       62999a8b6a3a6c5dc64fe910 - Can I redeem from/invest more in my imported funds on I Groww?{
+          62999ad76a3a6c5dc64fe912 - If I cancel my track request, will my imported funds be removed from my dashboard?
+       }
+    }
+    6299b2a41b08520f2d5f846a - Show my investments in mutual-funds. *******action investments Mutual-Fund(must be leaf)
+
+    629e1b258777fa8ba56ef5fb - What is the fund size of the mutual fund?  ****get fundSize
+    629e1be88777fa8ba56ef60a - What is the minimum SIP amount for the mutual fund? ****action get minSipAmount
+    629e1d4a8777fa8ba56ef60e - Show my investments in mutual-funds. *******action investments Mutual-Fund(must be leaf)
+    629e20ca8777fa8ba56ef628 - Show my previous investments in this mutual-fund .   ******action insvestments Id(space after each word imp.)
+
+
+    6299b9d0e0590ac5e94a8d8a - How to access to FD investing on Groww?(add action get phone number of people who wants FD) {
+        6299ba63e0590ac5e94a8d8c - How much time does it take to open a fixed deposit?{
+            6299baafe0590ac5e94a8d8e - Do I need a savings account with the bank for opening a fixed deposit?
+            6299bba8e0590ac5e94a8d96 - Can I register nominee for my FD?
+        }
+        6299baafe0590ac5e94a8d8e - Do I need a savings account with the bank for opening a fixed deposit?{
+            6299bba8e0590ac5e94a8d96 - Can I register nominee for my FD?
+            6299c00ee0590ac5e94a8da9 - Can I withdraw my fixed deposit before maturity?
+        }
+        6299bb18e0590ac5e94a8d90 - Can I import my external fixed deposits into Groww? 
+    }
+    6299bc96e0590ac5e94a8d98 - What is the minimum/maximum amount for opening a fixed deposit?{
+        6299bce9e0590ac5e94a8d9a - What is the minimum/maximum tenure for opening a fixed deposit?{
+            6299bd8ee0590ac5e94a8d9e - How many fixed deposits can I open?
+            6299bdd5e0590ac5e94a8da0 - The bank has changed the interest rates. Will that be applicable to my existing deposit?
+        }
+        6299bfbbe0590ac5e94a8da7 - What is the tax implication on FD?{
+             6299bd39e0590ac5e94a8d9c - What are tax-saver deposits?
+        }
+        6299bd8ee0590ac5e94a8d9e - How many fixed deposits can I open?{
+            6299bd39e0590ac5e94a8d9c - What are tax-saver deposits?
+            6299c00ee0590ac5e94a8da9 - Can I withdraw my fixed deposit before maturity?
+        }
+        6299bdd5e0590ac5e94a8da0 - The bank has changed the interest rates. Will that be applicable to my existing deposit?{
+            6299bf27e0590ac5e94a8da3 - What is the eligibility for senior citizens fixed deposits?
+        }
+    }
+    6299bf27e0590ac5e94a8da3 - What is the eligibility for senior citizens fixed deposits?{
+        6299bf6fe0590ac5e94a8da5 - Who is eligible to invest in FDs through Groww? 
+        6299bfbbe0590ac5e94a8da7 - What is the tax implication on FD?{
+             6299bd39e0590ac5e94a8d9c - What are tax-saver deposits?
+        }
+    }
+    
+    6299c00ee0590ac5e94a8da9 - Can I withdraw my fixed deposit before maturity?{
+        6299c06ee0590ac5e94a8dab - How to withdraw/redeem my fixed deposit?
+        6299c0e6e0590ac5e94a8dad - Can I withdraw a tax-saver FD before the maturity date?
+    }
+    6299c2b9e0590ac5e94a8dcd - Show my previous investments in fixed-deposits. *******action investments Fixed-Deposit(must be leaf)
+
+
+    629e1ed68777fa8ba56ef614 - What is the rate of interest of the FD?  ****get roi
+    629e1f3e8777fa8ba56ef618 - What is the duration of the FD? ****action get time
+    62a0e2f7f551107ab0ca1577 - What is minimum amount to be deposited in this FD?
+    629e1e2a8777fa8ba56ef611 - Show my previous investments in fixed-deposits. *******action investments Fixed-Deposit(must be leaf)
+    629e203b8777fa8ba56ef626 - Show my previous investments in this fixed-deposit .   ******action insvestments Id(space after each word imp.)
+
+
+
+    629f28929cb4c54dc2882252 - Show my investments in stocks. ******action Stock
+    629f28bd9cb4c54dc2882255 - Show my investments in mutual-funds. *******action investments Mutual-Fund
+    629f28e29cb4c54dc2882258 - Show my previous investments in fixed-deposits. *******action investments Fixed-Deposit
+
+}
